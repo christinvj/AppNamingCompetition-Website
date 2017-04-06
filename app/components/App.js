@@ -1,8 +1,13 @@
 var React = require('react');
+var Home = require('./Home.js');
+
 var MyComponentClass = React.createClass ({
 	render: function () {
 		return (
-			<h1>Hello world</h1>
+            <div>
+                <h1>Hello world</h1>
+                <Home />
+            </div>
 		);
 	}
 });
