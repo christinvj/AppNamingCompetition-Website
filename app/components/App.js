@@ -1,5 +1,4 @@
 var React = require('react');
-
 var MyComponentClass = React.createClass ({
 	render: function () {
 		return (
